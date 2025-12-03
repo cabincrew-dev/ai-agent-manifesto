@@ -1,4 +1,7 @@
 # The Manifesto for Agentic Automation
+>Governing the Shift from Automation to Autonomy.
+>
+>The standard for Autonomous Workflows.
 
 **We are standing at the edge of the Probabilistic Era.**
 
@@ -54,11 +57,19 @@ Autonomous agents are transient processes. They should not hold long-lived crede
 
 ---
 
-### The Pledge
-
+### Join the Movement
 We believe that the move from "Automated Scripts" to "Autonomous Agents" requires a fundamental shift in how we architect trust. We commit to building and using systems that prioritize **Verification over Vibes** and **Safety over Speed.**
 
----
+[![Signatures](https://img.shields.io/github/stars/cabincrew-dev/ai-agent-manifesto?label=Signatures&style=for-the-badge&color=38bdf8)](https://github.com/cabincrew-dev/ai-agent-manifesto)
+
+### How to Sign ✍️
+
+**Option 1:** Click the ⭐ Star button at the top right.
+
+**Option 2:** Sign via Terminal (using GitHub CLI):
+```bash
+gh repo star cabincrew-dev/ai-agent-manifesto
+```
 
 ### Cabin Crew is the Reference Implementation.
 
