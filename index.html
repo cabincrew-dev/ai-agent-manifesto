@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Manifesto for Agentic Automation</title>
+    <meta name="description"
+        content="Governing the Shift from Automation to Autonomy. The standard for Autonomous Workflows.">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="The Manifesto for Agentic Automation">
+    <meta property="og:description" content="5 Immutable Laws for Safe AI Agents. Join the movement.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://aiagentmanifesto.org">
+    <meta property="og:image" content="https://aiagentmanifesto.org/social-preview.png">
+    <meta name="twitter:card" content="ai-agent-manifesto.png">
+    <meta name="twitter:image:src" content="https://aiagentmanifesto.org/social-preview.png">
+    <meta name="twitter:site" content="@cabincrewdev">
+    <meta name="twitter:title" content="The Manifesto for Agentic Automation">
+    <meta name="twitter:description" content="5 Immutable Laws for Safe AI Agents. Join the movement.">
+
+    <link rel="canonical" href="https://cabincrew.dev/manifesto" />
+
+    <!-- Fonts (Inter + JetBrains Mono) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Tailwind CSS (Runtime for Zero-Build) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        bg: '#0B0F19',
+                        surface: '#161b22',
+                        border: '#30363d',
+                        primary: '#38bdf8', // Cyan-400
+                        text: '#c9d1d9',
+                        muted: '#8b949e'
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        mono: ['JetBrains Mono', 'monospace'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            background-color: #0B0F19;
+            color: #c9d1d9;
+        }
+
+        ::selection {
+            background: #38bdf8;
+            color: #000;
+        }
+    </style>
+</head>
+
+<body class="antialiased min-h-screen flex flex-col">
+
+    <!-- NAV -->
+    <nav class="w-full border-b border-border/50 backdrop-blur-md sticky top-0 z-50 bg-bg/80">
+        <div class="max-w-3xl mx-auto px-6 h-16 flex items-center justify-between">
+            <span class="font-mono text-xs text-muted uppercase tracking-widest">The Cabin Crew Protocol</span>
+            <a href="https://github.com/cabincrew-dev/ai-agent-manifesto" target="_blank"
+                class="text-sm font-mono hover:text-primary transition-colors">
+                ★ Star to Sign
+            </a>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <main class="flex-grow">
+        <header class="max-w-3xl mx-auto px-6 pt-24 pb-16">
+            <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-white mb-6 leading-tight">
+                The Manifesto for <br>
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">Agentic
+                    Automation</span>
+            </h1>
+            <p class="text-xl md:text-2xl text-muted font-light leading-relaxed">
+                Governing the Shift from Automation to Autonomy.<br>
+                The standard for Autonomous Workflows.
+            </p>
+        </header>
+
+        <!-- PREAMBLE -->
+        <section class="max-w-3xl mx-auto px-6 mb-20">
+            <div class="prose prose-invert prose-lg text-text/90">
+                <p class="font-bold text-white">We are standing at the edge of the Probabilistic Era.</p>
+                <p>
+                    For the last twenty years, professional automation was built on the foundation of
+                    <strong>Determinism</strong>.
+                    In Infrastructure, we used Ansible and Terraform. In Finance, we built rigid algorithms.
+                    If a system broke, it was a bug in the logic. The liability was static.
+                </p>
+
+                <h3 class="text-white font-bold mt-12 mb-4 text-2xl">The Shift</h3>
+                <p>
+                    Today, we are handing control to systems that do not follow instructions, they interpret intent.
+                </p>
+                <p>
+                    <strong>AI Agents are not scripts.</strong> They are probabilistic operators.
+                    They reason, plan, and execute. While this promises exponential velocity, it introduces a new,
+                    existential risk:
+                    <span class="text-primary font-mono">Stochastic Liability</span>.
+                </p>
+                <p>
+                    To build a future where autonomous agents can be trusted with critical systems, we adhere to the
+                    following principles:
+                </p>
+            </div>
+        </section>
+
+        <!-- PRINCIPLES -->
+        <section class="max-w-3xl mx-auto px-6 mb-24 space-y-12">
+
+            <!-- I -->
+            <div class="group">
+                <div class="font-mono text-primary text-sm mb-2">01</div>
+                <h2 class="text-3xl font-bold text-white mb-4 group-hover:text-primary transition-colors">The Principle
+                    of Separation</h2>
+                <p class="text-lg font-semibold text-white mb-2">Reasoning must be separate from action.</p>
+                <p class="text-muted leading-relaxed">
+                    Intent must be decoupled from Execution. An agent must never be granted the authority to "think and
+                    act" in a single, opaque atomic step. Just as Terraform separated Plan from Apply, Agentic workflows
+                    must separate Reasoning from Action.
+                </p>
+            </div>
+
+            <!-- II -->
+            <div class="group">
+                <div class="font-mono text-primary text-sm mb-2">02</div>
+                <h2 class="text-3xl font-bold text-white mb-4 group-hover:text-primary transition-colors">The Principle
+                    of Provenance</h2>
+                <p class="text-lg font-semibold text-white mb-2">Every output must carry its creation story.</p>
+                <p class="text-muted leading-relaxed">
+                    Output without history is contraband. In a probabilistic workflow, the final artifact is meaningless
+                    without the context of its creation. We require a cryptographic link between the agent's identity,
+                    the input context, the model used, and the final output.
+                </p>
+            </div>
+
+            <!-- III -->
+            <div class="group">
+                <div class="font-mono text-primary text-sm mb-2">03</div>
+                <h2 class="text-3xl font-bold text-white mb-4 group-hover:text-primary transition-colors">The Principle
+                    of External Sovereignty</h2>
+                <p class="text-lg font-semibold text-white mb-2">No agent can be its own authority.</p>
+                <p class="text-muted leading-relaxed">
+                    Safety guardrails must exist outside the agent's cognitive loop. We cannot rely on an LLM to
+                    "promise" it checked for security. Policy must be deterministic code, executed by a neutral
+                    orchestrator.
+                </p>
+            </div>
+
+            <!-- IV -->
+            <div class="group">
+                <div class="font-mono text-primary text-sm mb-2">04</div>
+                <h2 class="text-3xl font-bold text-white mb-4 group-hover:text-primary transition-colors">The Principle
+                    of Immutable Evidence</h2>
+                <p class="text-lg font-semibold text-white mb-2">Logs must be proofs, not just text.</p>
+                <p class="text-muted leading-relaxed">
+                    In the event of failure, a simple text log is insufficient. Autonomous systems require a chain of
+                    custody that is mathematically non-repudiable. Every decision and state change must be signed and
+                    sealed.
+                </p>
+            </div>
+
+            <!-- V -->
+            <div class="group">
+                <div class="font-mono text-primary text-sm mb-2">05</div>
+                <h2 class="text-3xl font-bold text-white mb-4 group-hover:text-primary transition-colors">The Principle
+                    of Ephemeral Identity</h2>
+                <p class="text-lg font-semibold text-white mb-2">Static keys are a failure of architecture.</p>
+                <p class="text-muted leading-relaxed">
+                    Autonomous agents are transient processes. They should not hold long-lived credentials. Identity
+                    must be ephemeral, issued only for the duration of a specific task, and cryptographically bound to
+                    the workload.
+                </p>
+            </div>
+
+        </section>
+
+        <!-- PLEDGE / CTA -->
+        <section class="bg-surface border-y border-border py-20">
+            <div class="max-w-3xl mx-auto px-6 text-center">
+                <h3 class="text-2xl font-bold text-white mb-6">Join the Movement</h3>
+                <p class="text-muted mb-10 max-w-lg mx-auto">
+                    We commit to building systems that prioritize <strong>Verification over Vibes</strong> and
+                    <strong>Safety over Speed</strong>.
+                </p>
+
+                <a href="https://github.com/cabincrew-dev/ai-agent-manifesto" target="_blank"
+                    class="inline-flex items-center gap-3 bg-white text-black px-8 py-4 rounded-lg font-bold hover:bg-primary hover:text-white transition-all shadow-xl hover:shadow-primary/20">
+                    <svg height="20" viewBox="0 0 16 16" width="20" class="fill-current">
+                        <path
+                            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
+                        </path>
+                    </svg>
+                    Sign the Manifesto
+                </a>
+                <p class="text-xs text-muted mt-4 font-mono">via GitHub Star</p>
+            </div>
+        </section>
+
+        <!-- FOOTER / REFERENCE IMPLEMENTATION -->
+        <footer class="max-w-3xl mx-auto px-6 py-16">
+            <div class="p-6 border border-dashed border-border rounded-xl bg-surface/30">
+                <p class="text-sm text-muted mb-4 font-mono uppercase tracking-widest">Reference Implementation</p>
+                <p class="text-lg text-white mb-4">
+                    These principles are codified in the <strong>The Cabin Crew Protocol</strong>.
+                    We provide the open source infrastructure to enforce these laws for every agent, on every platform.
+                </p>
+                <a href="https://cabincrew.dev/" class="text-primary font-mono hover:underline">Explore Cabin Crew
+                    -></a>
+            </div>
+
+            <div class="mt-12 text-center text-xs text-muted font-mono">
+                <p>© 2025 Cabin Crew Software Ltd • London</p>
+                <p class="mt-2 opacity-50">Released under Creative Commons (CC-BY-4.0)</p>
+            </div>
+        </footer>
+
+    </main>
+
+</body>
+
+</html>
