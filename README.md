@@ -58,7 +58,7 @@ Autonomous agents are transient processes. They should not hold long-lived crede
 ---
 
 ### Join the Movement
-We believe that the move from "Automated Scripts" to "Autonomous Agents" requires a fundamental shift in how we architect trust. We commit to building and using systems that prioritize **Verification over Vibes** and **Safety over Speed.**
+We believe that the move from "Automation" to "Autonomy" requires a fundamental shift in how we architect trust. We commit to building and using systems that prioritize **Verification over Vibes** and **Safety over Speed.**
 
 [![Signatures](https://img.shields.io/github/stars/cabincrew-dev/ai-agent-manifesto?label=Signatures&style=for-the-badge&color=38bdf8)](https://github.com/cabincrew-dev/ai-agent-manifesto)
 
