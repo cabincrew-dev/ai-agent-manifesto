@@ -79,7 +79,7 @@
                     const a = document.createElement('a');
                     a.href = user.html_url;
                     a.target = "_blank";
-                    a.rel = "noopener noreferrer";
+                    a.rel = "noopener noreferrer nofollow";
                     a.className = "relative group";
 
                     a.innerHTML = `
@@ -130,7 +130,7 @@
         <div class="max-w-3xl mx-auto px-6 h-16 flex items-center justify-between">
             <span class="font-mono text-xs text-muted uppercase tracking-widest">The Cabin Crew Protocol</span>
             <a id="github-button" href="https://github.com/cabincrew-dev/ai-agent-manifesto" target="_blank"
-                class="text-sm font-mono hover:text-primary transition-colors">
+                rel="noopener noreferrer nofollow" class="text-sm font-mono hover:text-primary transition-colors">
                 ★ Star to Sign
             </a>
         </div>
@@ -279,7 +279,8 @@
 
                 <p id="more-signers" class="text-xs text-slate-600 mt-6 font-mono hidden">
                     <a href="https://github.com/cabincrew-dev/ai-agent-manifesto/stargazers/" target="_blank"
-                        class="text-primary font-mono hover:underline">Explore All Signatories</a>
+                        rel="noopener noreferrer nofollow" class="text-primary font-mono hover:underline">Explore All
+                        Signatories</a>
                 </p>
             </div>
         </section>
