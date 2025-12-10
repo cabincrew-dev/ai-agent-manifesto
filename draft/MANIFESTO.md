@@ -5,14 +5,10 @@
   is_draft: true
   title: 'The Manifesto for Agentic Automation'
   description: 'Governing the Shift from Automation to Autonomy. The standard for Autonomous Workflows.'
-  motto: '6 Immutable Laws for Safe AI Agents. Join the movement.'
-  section_order:
-    - hero
-    - preamble
-    - principles
+  motto: '5 Immutable Laws for Safe AI Agents. Join the movement.'
 ---
 # The Manifesto for **Agentic Automation** *draft*
-Governing the Shift from Automation to Autonomy.
+> Governing the Shift from Automation to Autonomy.
 The standard for Autonomous Workflows.
 
 ##### We are standing at the edge of the Probabilistic Era.

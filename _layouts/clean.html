@@ -23,7 +23,12 @@
 
     <link rel="shortcut icon" type="image/x-icon" href="{{site.url}}/favicon.png">
 
-    <link rel="canonical" href="{{site.url}}" />
+    <!-- Canonical -- TODO: Replace here to root once stable  -->
+    {% unless page.is_draft %}
+    <link rel="canonical" href="{{site.url}}/draft/" />
+    {% endunless %}
+
+    <link rel="canonical" href="{{site.url}}/draft/" />
 
     <!-- Fonts (Inter + JetBrains Mono) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -102,26 +107,6 @@
             background: #38bdf8;
             color: #000;
         }
-
-        #preamble h3 {
-            color: #fff;
-            font-family: Inter, sans-serif;
-            font-size: 24px;
-            font-weight: 700;
-            margin-top: 48px;
-            margin-bottom: 16px;
-        }
-
-        #preamble p:first-child {
-            color: #fff;
-            font-weight: bold;
-        }
-
-        #preamble p em {
-            color: #38bdf8;
-            font-family: JetBrains Mono, monospace;
-        }
-
 
         .github-corner:hover .octo-arm {
             animation: octocat-wave 560ms ease-in-out
@@ -207,21 +192,8 @@
 
     <!-- HERO -->
     <main class="flex-grow">
-        <header class="max-w-3xl mx-auto px-6 pt-20 pb-16">
-            <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-white mb-6 leading-tight">
-                {{ page.hero.title_start }} <br>
-                <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">
-                    {{ page.hero.title_highlight }}
-                </span>
-                <em class="text-muted text-sm tracking-wider">{{ page.version }}</em>
-            </h1>
-            <p class=" text-xl md:text-2xl text-muted font-light leading-relaxed">
-                {{ page.hero.subtitle }}
-            </p>
-        </header>
-
         <!-- MANIFESTO -->
-        <section id="preamble" class="max-w-3xl mx-auto px-6 mb-20">
+        <section id="preamble" class="max-w-3xl mx-auto px-6 pt-20 pb-16 mb-20">
             <div class="prose prose-invert prose-lg text-text/90">
                 {{content}}
             </div>
@@ -273,12 +245,12 @@
                     We provide the open source infrastructure to enforce these laws for every agent, on every
                     platform.
                 </p>
-                <a href="https://cabincrew.dev/" class="text-primary font-mono hover:underline">Explore Cabin Crew
+                <a href="https://github.com/cabincrew-dev/cabincrew-protocol" class="text-primary font-mono hover:underline">Explore Cabin Crew Protocol
                     -></a>
             </div>
 
             <div class="mt-12 text-center text-xs text-muted font-mono">
-                <p>© 2025 Cabin Crew Software Ltd • London</p>
+                <p>Originally drafted at <a href="https://cabincrew.dev/manifesto" class="text-primary font-mono hover:underline">Cabin Crew Software Ltd.</a></p>
                 <p class="mt-2 opacity-50">Released under Creative Commons (CC-BY-4.0)</p>
             </div>
         </footer>
