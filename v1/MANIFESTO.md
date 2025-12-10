@@ -1,13 +1,14 @@
 ---
   layout: clean
-  permalink: /v1/
+  permalink: /
   version: v1
   is_draft: false
+  is_latest: true
   title: 'The Manifesto for Agentic Automation'
   description: 'Governing the Shift from Automation to Autonomy. The standard for Autonomous Workflows.'
   motto: '5 Immutable Laws for Safe AI Agents. Join the movement.'
 ---
-# The Manifesto for **Agentic Automation** *draft*
+# The Manifesto for **Agentic Automation** *v1*
 > Governing the Shift from Automation to Autonomy.
 The standard for Autonomous Workflows.
 
@@ -15,7 +16,7 @@ The standard for Autonomous Workflows.
 
 For the last twenty years, professional automation was built on the foundation of **Determinism**. In Infrastructure, we used Ansible and Terraform. In Finance, we built rigid algorithms. If a system broke, it was a bug in the logic. The liability was static.
 
-#### The Shift
+##### The Shift
 
 Today, we are handing control to systems that do not follow instructions, they interpret intent.
 

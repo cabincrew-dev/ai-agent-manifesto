@@ -15,7 +15,7 @@ The standard for Autonomous Workflows.
 
 For the last twenty years, professional automation was built on the foundation of **Determinism**. In Infrastructure, we used Ansible and Terraform. In Finance, we built rigid algorithms. If a system broke, it was a bug in the logic. The liability was static.
 
-#### The Shift
+##### The Shift
 
 Today, we are handing control to systems that do not follow instructions, they interpret intent.
 
