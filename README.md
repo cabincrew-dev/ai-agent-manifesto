@@ -2,7 +2,6 @@
 
 [![Current Version](https://img.shields.io/badge/version-v1-green)](v1/MANIFESTO.md)
 [![Draft Version](https://img.shields.io/badge/version-draft-blue)](draft/MANIFESTO.md)
-[![Signatures](https://img.shields.io/github/stars/cabincrew-dev/ai-agent-manifesto?label=Signatures&style=for-the-badge&color=38bdf8)](https://github.com/cabincrew-dev/ai-agent-manifesto)
 
 ### From Automation to Autonomy.
 
