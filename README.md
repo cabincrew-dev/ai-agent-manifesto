@@ -53,8 +53,6 @@ No problem at all! Just drop an issue if you have feedback, a principle to sugge
 
 These principles are codified in the `The Cabin Crew Protocol` as a reference implementation. It provides the open-source infrastructure needed to enforce these principles across agents and platforms.
 
-Explore Cabin Crew Protocol ->
-
 **[Explore Cabin Crew Protocol ->](https://github.com/cabincrew-dev/cabincrew-protocol/blob/main/docs/manifesto-compliance.md)**
 
 ---
