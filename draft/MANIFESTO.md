@@ -35,18 +35,18 @@ Intent must be decoupled from Execution. An agent must never be granted the auth
 
 ## 02
 ### The Principle of Provenance
-#### Every output must carry its creation story.
-Output without history is contraband. In a probabilistic workflow, the final artifact is meaningless without the context of its creation. We require a cryptographic link between the agent's identity, the input context, the model used, and the final output.
+#### Every output must carry its own creation story.
+Output without lineage is hearsay. In a probabilistic workflow, the final artifact is meaningless without the context of its creation. We require a cryptographic link between the agent's identity, the input context, the model used, and the final output.
 
 ## 03
 ### The Principle of External Sovereignty
 #### No agent can be its own authority.
-Safety guardrails must exist outside the agent's cognitive loop. We cannot rely on an LLM to 'promise' it checked for security. Policy must be deterministic code, executed by a neutral orchestrator.
+Safety guardrails must exist outside the agent's cognitive loop. We cannot rely on an LLM to 'promise' that it checked for security. Policy must be deterministic code, enforced by a neutral orchestrator.
 
 ## 04
 ### The Principle of Immutable Evidence
 #### Logs must be proofs, not just text.
-In the event of failure, a simple text log is insufficient. Autonomous systems require a chain of custody that is mathematically non-repudiable. Every decision and state change must be signed and sealed.
+In the event of a failure, a simple text log is not sufficient. Autonomous systems require a chain of custody that is mathematically indisputable. Every decision and state change must be signed and sealed.
 
 ## 05
 ### The Principle of Ephemeral Identity
