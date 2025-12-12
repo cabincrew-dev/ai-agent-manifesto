@@ -58,4 +58,8 @@ Autonomous agents are transient processes. They should not hold long-lived crede
 #### Agent Rule of Two [*](https://ai.meta.com/blog/practical-ai-agent-security/){:rel="nofollow"}
 Agents must not simultaneously process untrusted input, access sensitive systems, and perform state-changing operations. If such combinations are unavoidable, external supervision is mandatory.
 
-
+## 07
+### The Principle of of Human Supremacy Intent
+#### Any change in the principles or objectives must be recorded and verified outside the agent itself.
+Autonomous agents may reason, plan, and propose actions, but they cannot change the goal they were created to serve. Only humans define or redefine intent. Objective creation and modification is a strictly human responsibility. Any deviation requires explicit human reauthorization, cryptographically recorded and externally enforced. 
+Agents are free to reason and plan, yet the definition of “what to achieve” remains exclusively human. Any change in objectives must be explicitly authorized by a human and validated through an external, auditable control layer.
