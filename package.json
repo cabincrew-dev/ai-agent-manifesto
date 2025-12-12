@@ -6,7 +6,7 @@
   },
   "name": "ai-agent-manifesto",
   "version": "1.0.0",
-  "description": "[![Current Version](https://img.shields.io/badge/version-1.0-blue)](v1/MANIFESTO.md) [![Signatures](https://img.shields.io/github/stars/cabincrew-dev/ai-agent-manifesto?label=Signatures&style=for-the-badge&color=38bdf8)](https://github.com/cabincrew-dev/ai-agent-manifesto)",
+  "description": "AI Agent Manifesto",
   "main": "index.js",
   "dependencies": {
     "baseline-browser-mapping": "^2.9.6",

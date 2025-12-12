@@ -24,8 +24,8 @@
     <link rel="shortcut icon" type="image/x-icon" href="{{site.url}}/favicon.png">
 
     <!-- Canonical -->
-    {% unless page.is_latest %}
-    <link rel="canonical" href="{{site.url}}" />
+    {% unless page.is_draft %}
+    <link rel="canonical" href="{{site.url}}/draft" />
     {% endunless %}
 
     <!-- Fonts (Inter + JetBrains Mono) -->
@@ -146,27 +146,19 @@
         <div class="max-w-3xl mx-auto px-6 h-16 flex items-center justify-between">
             <span class="font-mono text-xs text-muted uppercase tracking-widest">AI Agent Manifesto</span>
             <div class="flex gap-6 text-sm font-medium">
-                <a href="/v1/"
-                    class="{% unless https://github.com/cabincrew-dev/ai-agent-manifestopage.is_draft %}text-white{% else %}text-muted hover:text-white{% endunless %} transition-colors">v1.0
-                    (Stable)</a>
                 <a href="/draft/"
                     class="{% if page.is_draft %}text-primary{% else %}text-muted hover:text-white{% endif %} transition-colors">Next
-                    (Draft)</a>
+                    Version (Draft)</a>
                 <a class="hidden mx-auto sm:inline-block"
-   href="https://github.com/cabincrew-dev/ai-agent-manifesto/pulls"
-   rel="noopener noreferrer nofollow">
-    <img src="https://badgen.net/github/prs/cabincrew-dev/ai-agent-manifesto?label=PRs">
-</a><!--
---><a class="hidden mx-auto sm:inline-block"
-   href="https://github.com/cabincrew-dev/ai-agent-manifesto/issues"
-   rel="noopener noreferrer nofollow">
-    <img src="https://badgen.net/github/issues/cabincrew-dev/ai-agent-manifesto?label=Issues">
-</a><!--
---><a class="hidden mx-auto sm:inline-block"
-   href="https://github.com/cabincrew-dev/ai-agent-manifesto/stargazers"
-   rel="noopener noreferrer nofollow">
-    <img src="https://badgen.net/github/stars/cabincrew-dev/ai-agent-manifesto?label=Stars">
-</a>
+                    href="https://github.com/cabincrew-dev/ai-agent-manifesto/pulls"
+                    rel="noopener noreferrer nofollow">
+                        <img src="https://badgen.net/github/prs/cabincrew-dev/ai-agent-manifesto?label=PRs">
+                </a><!--
+                --><a class="hidden mx-auto sm:inline-block"
+                    href="https://github.com/cabincrew-dev/ai-agent-manifesto/issues"
+                    rel="noopener noreferrer nofollow">
+                    <img src="https://badgen.net/github/issues/cabincrew-dev/ai-agent-manifesto?label=Issues">
+                </a>
                 <a href="https://github.com/cabincrew-dev/ai-agent-manifesto" class="github-corner"
                     title="View source on GitHub" rel="noopener noreferrer nofollow"><svg width="80" height="80"
                         viewBox="0 0 250 250"
@@ -230,9 +222,13 @@
                     We believe that the shift from Automation to Autonomy requires rethinking how we build and maintain trust.
                     This means embracing systems that prioritize <strong>Verification over Vibes</strong> and <strong>Safety over Speed</strong>.
                 </p>
-                     <a class="inline-block mx-auto" href="https://github.com/cabincrew-dev/ai-agent-manifesto/stargazers" title="Stargazers"
+
+                <p class="text-muted mb-10 max-w-lg mx-auto">If these principles resonate with you, you can support the work by starring the repository or joining the discussion on GitHub.</p>
+                
+                <a class="inline-block mx-auto mb-10" href="https://github.com/cabincrew-dev/ai-agent-manifesto/stargazers" title="Stargazers"
                     rel="noopener noreferrer nofollow"><img class="scale-150"
                         src="https://badgen.net/github/stars/cabincrew-dev/ai-agent-manifesto?label=Stargazers"></a>
+
                    
 
             </div>
@@ -252,7 +248,7 @@
 
             <div class="mt-12 text-center text-xs text-muted font-mono">
                 <p >Released under Creative Commons (CC-BY-4.0)</p>
-                <p class="mt-2 opacity-50">Originally drafted at <a href="https://cabincrew.dev/manifesto" class="text-primary font-mono hover:underline">Cabin Crew™.</a></p>
+                <p class="mt-2 opacity-50"><a href="{{site.url}}/legacy/" class="text-primary font-mono hover:underline">Legacy version</a> drafted at <a href="https://cabincrew.dev/" class="text-primary font-mono hover:underline" target="_blank">Cabin Crew™</a>.</p>
             </div>
         </footer>
 

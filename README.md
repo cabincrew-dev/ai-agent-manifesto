@@ -1,6 +1,6 @@
-# The Manifesto for Agentic Automation
+# Open Manifesto for AI Agents Touching Production Systems
 
-[![Current Version](https://img.shields.io/badge/version-v1-green)](v1/MANIFESTO.md)
+[![Legacy Version](https://img.shields.io/badge/version-legacy-green)](legacy/MANIFESTO.md)
 [![Draft Version](https://img.shields.io/badge/version-draft-blue)](draft/MANIFESTO.md)
 
 ### From Automation to Autonomy.
@@ -13,7 +13,7 @@ This shift can help us to deliver much faster, but it also brings new risks. Wit
 
 ---
 
-## [Read The Manifesto (v1)](v1/MANIFESTO.md)
+## [Read The Manifesto (draft)](draft/MANIFESTO.md)
 
 This document explains the basic rules for using AI agents safely. It focuses on keeping thinking and actions separate, making every result traceable and verified, and ensuring that clear external rules guide what agents can do.
 

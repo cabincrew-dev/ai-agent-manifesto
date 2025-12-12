@@ -3,13 +3,16 @@
   permalink: /draft/
   version: draft
   is_draft: true
-  title: 'The Manifesto for Agentic Automation'
-  description: 'Governing the Shift from Automation to Autonomy. The standard for Autonomous Workflows.'
-  motto: '5 Immutable Laws for Safe AI Agents. Join the movement.'
+  title: 'Open Manifesto for AI Agents Touching Production Systems'
+  description: 'Governing the Shift from Automation to Autonomy. A set of guiding principles for AI agents operating in production systems.'
+  motto: 'Principles required to trust the machines.'
 ---
-# The Manifesto for **Agentic Automation** *draft*
+# Open Manifesto
+# **for AI Agents**
+> _Touching Production Systems_
+
 > Governing the Shift from Automation to Autonomy.
-The standard for Autonomous Workflows.
+A set of guiding principles for AI agents operating in production systems.
 
 ##### We are standing at the edge of the Probabilistic Era.
 

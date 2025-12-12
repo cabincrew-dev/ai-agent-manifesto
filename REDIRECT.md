@@ -1,5 +1,5 @@
 ---
-permalink: /v1/
+permalink: /
 redirect_to:
-  - /
+  - /draft/
 ---

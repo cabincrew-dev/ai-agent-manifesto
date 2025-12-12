@@ -1,12 +1,11 @@
 ---
   layout: clean
-  permalink: /
-  version: v1
+  permalink: /legacy/
+  version: legacy
   is_draft: false
-  is_latest: true
   title: 'The Manifesto for Agentic Automation'
   description: 'Governing the Shift from Automation to Autonomy. The standard for Autonomous Workflows.'
-  motto: '5 Immutable Laws for Safe AI Agents. Join the movement.'
+  motto: '5 Immutable Laws for Safe AI Agents.'
 ---
 # The Manifesto for **Agentic Automation** *v1*
 > Governing the Shift from Automation to Autonomy.
